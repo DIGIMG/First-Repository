@@ -1,0 +1,89 @@
+body{
+    background-color: #ecf0f1;
+    direction: rtl;
+}
+
+@font-face{
+    font-family:'smallfont';
+    src:url(font/tanha/tanha.eot),url(font/tanha/tanha.woff),url(font/tanha/tanha.woff2);
+}
+
+.test1{
+    width:100px;
+    height:30px;
+    background-color: #1abc9c;
+    box-shadow: 10px 10px 10px #2c3e50;
+    margin-left: 10px;
+    margin-top:10px;
+    transition: all 2s 0.4s;
+}
+.test2{
+    width:100px;
+    height:30px;
+    background-color: #1abc9c;
+    box-shadow: 10px 10px 10px #2c3e50;
+    margin-left: 10px;
+    margin-top:20px;
+    transition: all 2s 0.4s;
+}
+.test3{
+    width:100px;
+    height:30px;
+    background-color: #1abc9c;
+    box-shadow: 10px 10px 10px #2c3e50;
+    margin-left: 10px;
+    margin-top:20px;
+    transition: all 2s 0.4s;
+    transform:skew(20deg,20deg);
+}
+
+.test:hover{
+    box-shadow: 10px 10px 10px #8e44ad;
+    width: 400px;
+}
+
+.test1:hover{
+    width: 200px;
+    border-right-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-color: #f1c40f;
+    border-width:6px;
+    
+   
+}
+.test2:hover{
+    width: 200px;
+    border-right-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-color: #f1c40f;
+    border-width:6px;
+}
+.test3:hover{
+    width: 200px;
+    border-right-style: ridge;
+    border-bottom-right-radius: 30px;
+    border-color: #f1c40f;
+    border-width:6px;
+    transform:skew(0deg,0deg);
+}
+
+.test4{
+    width:200px;
+    height:200px;
+    background-color: #9b59b6;
+    margin-top:50px;
+    margin-left: 50px;
+    transition: all 2s 0.1s;
+    transform:translate(70px ,70px)
+}
+.test4:hover{
+    transform: rotate(90deg);
+    border-radius: 110px;
+    background-color: #2c3e50;
+}
+
+.test60{
+    padding-top:70px;
+    font-family: smallfont;
+    font-size: 16px;
+}
